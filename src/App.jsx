@@ -176,7 +176,7 @@ if (logueado) {
 }
     return (
     <>
-    <h1>inicio secion</h1>
+    <h1>inicio sesion</h1>
     <input placeholder= 'usuario' type="text" name="usuario" id= "usuario" value={usuario} onChange={cambiarUsuario}/>
     <input placeholder= 'password' type="password" name="clave" id="clave"  value={clave} onChange={cambiarclave}/>
     <button onClick={ingresar}>ingresar</button>
